@@ -1,0 +1,33 @@
+petit_fatfs
+
+spi mode
+ - RC3 : CLK
+ - RC4 : SDI
+ - RC5 : SDO
+ - RA5 : CS
+ - FOSC/16
+
+uart mode
+ - RC7 : RX
+ - RC6 : TX
+ - baudrate : 19200
+
+_XTAL_FREQ 4000000
+
+#pragma config OSC = HS
+
+spi_petit_fatfs_sdcard/
+        new file:   Makefile
+        new file:   configuration_bits.h
+        new file:   diskio.h
+        new file:   integer.h
+        new file:   main.c
+        new file:   main.h
+        new file:   pff.c
+        new file:   pff.h
+        new file:   pffconf.h
+        new file:   pic_mmcp.c
+        new file:   uart.c
+        new file:   uart.h
+        new file:   xprintf.c
+        new file:   xprintf.h

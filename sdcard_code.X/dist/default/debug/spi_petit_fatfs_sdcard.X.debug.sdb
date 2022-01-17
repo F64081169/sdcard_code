@@ -1,0 +1,1263 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"27 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\main.c
+[e E3114 . `uc
+FR_OK 0
+FR_DISK_ERR 1
+FR_NOT_READY 2
+FR_NO_FILE 3
+FR_NOT_OPENED 4
+FR_NOT_ENABLED 5
+FR_NO_FILESYSTEM 6
+]
+"131
+[e E3069 . `uc
+RES_OK 0
+RES_ERROR 1
+RES_NOTRDY 2
+RES_PARERR 3
+]
+"380 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\pff.c
+[e E2630 . `uc
+RES_OK 0
+RES_ERROR 1
+RES_NOTRDY 2
+RES_PARERR 3
+]
+"433
+[e E2600 . `uc
+FR_OK 0
+FR_DISK_ERR 1
+FR_NOT_READY 2
+FR_NO_FILE 3
+FR_NOT_OPENED 4
+FR_NOT_ENABLED 5
+FR_NO_FILESYSTEM 6
+]
+"224 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\pic_mmcp.c
+[e E74 . `uc
+RES_OK 0
+RES_ERROR 1
+RES_NOTRDY 2
+RES_PARERR 3
+]
+"19 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X/pwm.h
+[v _pwm_Init pwm_Init `(v  1 e 1 0 ]
+"47
+[v _pwm_setDuty pwm_setDuty `(v  1 e 1 0 ]
+"54
+[v _pwm_start pwm_start `(v  1 e 1 0 ]
+"59
+[v _pwm_stop pwm_stop `(v  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"72 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"568
+[v _stoa stoa `(i  1 s 2 stoa ]
+"615
+[v _utoa utoa `(i  1 s 2 utoa ]
+"645
+[v _xtoa xtoa `(i  1 s 2 xtoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isalpha.c
+[v _isalpha isalpha `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\islower.c
+[v _islower islower `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\toupper.c
+[v _toupper toupper `(i  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"27 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\main.c
+[v _put_rc put_rc `(v  1 e 1 0 ]
+"40
+[v _put_drc put_drc `(v  1 e 1 0 ]
+"45
+[v _gpio_init gpio_init `(v  1 e 1 0 ]
+"69
+[v _main main `(i  1 e 2 0 ]
+"325 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\pff.c
+[v _mem_set mem_set `(v  1 s 1 mem_set ]
+"332
+[v _mem_cmp mem_cmp `(i  1 s 2 mem_cmp ]
+"346
+[v _get_fat get_fat `(ul  1 s 4 get_fat ]
+"396
+[v _clust2sect clust2sect `(ul  1 s 4 clust2sect ]
+"410
+[v _get_clust get_clust `(ul  1 s 4 get_clust ]
+"433
+[v _dir_rewind dir_rewind `(E2600  1 s 1 dir_rewind ]
+"461
+[v _dir_next dir_next `(E2600  1 s 1 dir_next ]
+"506
+[v _dir_find dir_find `(E2600  1 s 1 dir_find ]
+"540
+[v _dir_read dir_read `(E2600  1 s 1 dir_read ]
+"577
+[v _create_name create_name `(E2600  1 s 1 create_name ]
+"634
+[v _get_fileinfo get_fileinfo `(v  1 s 1 get_fileinfo ]
+"676
+[v _follow_path follow_path `(E2600  1 s 1 follow_path ]
+"718
+[v _check_fs check_fs `(uc  1 s 1 check_fs ]
+"750
+[v _pf_mount pf_mount `(E3114  1 e 1 0 ]
+"826
+[v _pf_open pf_open `(E3114  1 e 1 0 ]
+"863
+[v _pf_read pf_read `(E3114  1 e 1 0 ]
+"1000
+[v _pf_lseek pf_lseek `(E3114  1 e 1 0 ]
+"1051
+[v _pf_opendir pf_opendir `(E3114  1 e 1 0 ]
+"1088
+[v _pf_readdir pf_readdir `(E3114  1 e 1 0 ]
+"22 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\pic_mmcp.c
+[v _init_spi init_spi `(v  1 e 1 0 ]
+"40
+[v _dly_100us dly_100us `(v  1 e 1 0 ]
+"45
+[v _xmit_spi xmit_spi `(v  1 e 1 0 ]
+"53
+[v _rcv_spi rcv_spi `(uc  1 e 1 0 ]
+"89
+[v _send_cmd2 send_cmd2 `(uc  1 e 1 0 ]
+"122
+[v _send_cmd send_cmd `(uc  1 e 1 0 ]
+"172
+[v _disk_initialize disk_initialize `(uc  1 e 1 0 ]
+"224
+[v _disk_readp disk_readp `(E3069  1 e 1 0 ]
+"68 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\uart.c
+[v _isr_high isr_high `IIH(v  1 e 1 0 ]
+"96
+[v _uart_gets uart_gets `(i  1 e 2 0 ]
+"140
+[v _putch putch `(v  1 e 1 0 ]
+"149
+[v _uart_init uart_init `(v  1 e 1 0 ]
+"203
+[v _put_dump put_dump `(v  1 e 1 0 ]
+"255
+[v _xatoi xatoi `(i  1 e 2 0 ]
+[s S235 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"316 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h
+[s S244 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S253 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S262 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S264 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S267 . 1 `S235 1 . 1 0 `S244 1 . 1 0 `S253 1 . 1 0 `S262 1 . 1 0 `S264 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES267  1 e 1 @3969 ]
+[s S124 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"1005
+[s S133 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S142 . 1 `S124 1 . 1 0 `S133 1 . 1 0 ]
+[v _LATAbits LATAbits `VES142  1 e 1 @3977 ]
+[s S195 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1117
+[s S204 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S213 . 1 `S195 1 . 1 0 `S204 1 . 1 0 ]
+[v _LATBbits LATBbits `VES213  1 e 1 @3978 ]
+"1202
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S84 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1510
+[s S93 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S102 . 1 `S84 1 . 1 0 `S93 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES102  1 e 1 @3986 ]
+"1922
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S44 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1954
+[s S53 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S62 . 1 `S44 1 . 1 0 `S53 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES62  1 e 1 @3988 ]
+"3111
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"3321
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"3577
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3589
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3601
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4502
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"4606
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"5011
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"5081
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"5309
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"5316
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"5414
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+[s S366 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6725
+[s S375 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S384 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S388 . 1 `S366 1 . 1 0 `S375 1 . 1 0 `S384 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES388  1 e 1 @4082 ]
+"7412
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"7487
+[v _INT0IF INT0IF `VEb  1 e 0 @32657 ]
+"7988
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"8174
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"8177
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"8180
+[v _RCIP RCIP `VEb  1 e 0 @31997 ]
+"8348
+[v _SSPIF SSPIF `VEb  1 e 0 @31987 ]
+"8531
+[v _TMR2ON TMR2ON `VEb  1 e 0 @32338 ]
+"8729
+[v _TXIE TXIE `VEb  1 e 0 @31980 ]
+"8732
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"8735
+[v _TXIP TXIP `VEb  1 e 0 @31996 ]
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"24 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\main.c
+[v _Line Line `[128]uc  1 e 128 0 ]
+"25
+[v _init_flag init_flag `i  1 e 2 0 ]
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"320 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\pff.c
+[v _FatFs FatFs `*.39S164  1 s 2 FatFs ]
+"84 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\pic_mmcp.c
+[v _CardType CardType `uc  1 e 1 0 ]
+"25 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\uart.c
+[v _TxRun TxRun `VEi  1 s 2 TxRun ]
+[s S970 . 134 `i 1 ri 2 0 `i 1 wi 2 2 `i 1 ct 2 4 `[128]uc 1 buff 128 6 ]
+"29
+[v _TxFifo TxFifo `VES970  1 s 134 TxFifo ]
+[v _RxFifo RxFifo `VES970  1 s 134 RxFifo ]
+"69 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"170
+[v main@count count `i  1 a 2 96 ]
+"171
+[v main@num_temp num_temp `ui  1 a 2 88 ]
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"75
+[v main@fs fs `S164  1 a 42 149 ]
+[s S185 . 22 `ul 1 fsize 4 0 `us 1 fdate 2 4 `us 1 ftime 2 6 `uc 1 fattrib 1 8 `[13]uc 1 fname 13 9 ]
+"77
+[v main@fno fno `S185  1 a 22 106 ]
+[s S179 . 16 `us 1 index 2 0 `*.39uc 1 fn 2 2 `ul 1 sclust 4 4 `ul 1 clust 4 8 `ul 1 sect 4 12 ]
+"76
+[v main@dir dir `S179  1 a 16 128 ]
+"72
+[v main@p1 p1 `l  1 a 4 100 ]
+[v main@p2 p2 `l  1 a 4 92 ]
+"71
+[v main@ptr ptr `*.39uc  1 a 2 146 ]
+"74
+[v main@s1 s1 `ui  1 a 2 144 ]
+[v main@s2 s2 `ui  1 a 2 104 ]
+[v main@s3 s3 `ui  1 a 2 98 ]
+[v main@ofs ofs `ui  1 a 2 90 ]
+"73
+[v main@res res `uc  1 a 1 148 ]
+"80
+[v main@upmode upmode `uc  1 a 1 87 ]
+"368
+} 0
+"255 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\uart.c
+[v _xatoi xatoi `(i  1 e 2 0 ]
+{
+"260
+[v xatoi@val val `ul  1 a 4 25 ]
+"261
+[v xatoi@c c `uc  1 a 1 29 ]
+[v xatoi@r r `uc  1 a 1 24 ]
+[v xatoi@s s `uc  1 a 1 23 ]
+"256
+[v xatoi@str str `*.39*.39uc  1 p 2 17 ]
+"257
+[v xatoi@res res `*.39l  1 p 2 19 ]
+"309
+} 0
+"149
+[v _uart_init uart_init `(v  1 e 1 0 ]
+{
+"197
+} 0
+"96
+[v _uart_gets uart_gets `(i  1 e 2 0 ]
+{
+"101
+[v uart_gets@c c `i  1 a 2 27 ]
+[v uart_gets@i i `i  1 a 2 25 ]
+"97
+[v uart_gets@buff buff `*.39uc  1 p 2 16 ]
+"98
+[v uart_gets@len len `i  1 p 2 18 ]
+"130
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 15 ]
+"7
+[v memset@k k `ui  1 a 2 13 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 5 ]
+[v memset@c c `i  1 p 2 7 ]
+[v memset@n n `ui  1 p 2 9 ]
+"90
+} 0
+"59 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X/pwm.h
+[v _pwm_stop pwm_stop `(v  1 e 1 0 ]
+{
+"62
+} 0
+"54
+[v _pwm_start pwm_start `(v  1 e 1 0 ]
+{
+"57
+} 0
+"47
+[v _pwm_setDuty pwm_setDuty `(v  1 e 1 0 ]
+{
+[v pwm_setDuty@dutycycle dutycycle `ui  1 p 2 5 ]
+"52
+} 0
+"19
+[v _pwm_Init pwm_Init `(v  1 e 1 0 ]
+{
+[v pwm_Init@period period `uc  1 a 1 wreg ]
+[v pwm_Init@period period `uc  1 a 1 wreg ]
+"21
+[v pwm_Init@period period `uc  1 a 1 5 ]
+"45
+} 0
+"27 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\main.c
+[v _put_rc put_rc `(v  1 e 1 0 ]
+{
+[v put_rc@rc rc `E3114  1 a 1 wreg ]
+"29
+[v put_rc@p p `*.25Cuc  1 a 2 18 ]
+"30
+[v put_rc@i i `E3114  1 a 1 16 ]
+"27
+[v put_rc@rc rc `E3114  1 a 1 wreg ]
+"31
+[v put_rc@str str `C[69]uc  1 s 69 str ]
+"34
+[v put_rc@rc rc `E3114  1 a 1 17 ]
+"38
+} 0
+"203 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\uart.c
+[v _put_dump put_dump `(v  1 e 1 0 ]
+{
+"210
+[v put_dump@i i `i  1 a 2 36 ]
+"211
+[v put_dump@bp bp `*.39Cuc  1 a 2 34 ]
+"213
+[v put_dump@lp lp `*.39Cul  1 a 2 30 ]
+"212
+[v put_dump@sp sp `*.39Cus  1 a 2 28 ]
+"204
+[v put_dump@buff buff `*.39Cv  1 p 2 16 ]
+"205
+[v put_dump@addr addr `ul  1 p 4 18 ]
+"206
+[v put_dump@len len `i  1 p 2 22 ]
+"207
+[v put_dump@width width `i  1 p 2 24 ]
+"241
+} 0
+"40 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\main.c
+[v _put_drc put_drc `(v  1 e 1 0 ]
+{
+[v put_drc@res res `uc  1 a 1 wreg ]
+[v put_drc@res res `uc  1 a 1 wreg ]
+"42
+[v put_drc@res res `uc  1 a 1 16 ]
+"43
+} 0
+"1088 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\pff.c
+[v _pf_readdir pf_readdir `(E3114  1 e 1 0 ]
+{
+"1094
+[v pf_readdir@dir dir `[32]uc  1 a 32 0 ]
+[v pf_readdir@sp sp `[12]uc  1 a 12 32 ]
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"1095
+[v pf_readdir@fs fs `*.39S164  1 a 2 44 ]
+"1093
+[v pf_readdir@res res `E2600  1 a 1 46 ]
+[s S179 . 16 `us 1 index 2 0 `*.39uc 1 fn 2 2 `ul 1 sclust 4 4 `ul 1 clust 4 8 `ul 1 sect 4 12 ]
+"1089
+[v pf_readdir@dj dj `*.39S179  1 p 2 92 ]
+[s S185 . 22 `ul 1 fsize 4 0 `us 1 fdate 2 4 `us 1 ftime 2 6 `uc 1 fattrib 1 8 `[13]uc 1 fname 13 9 ]
+"1090
+[v pf_readdir@fno fno `*.39S185  1 p 2 94 ]
+"1116
+} 0
+"634
+[v _get_fileinfo get_fileinfo `(v  1 s 1 get_fileinfo ]
+{
+"641
+[v get_fileinfo@p p `*.39uc  1 a 2 37 ]
+"640
+[v get_fileinfo@i i `uc  1 a 1 40 ]
+[v get_fileinfo@c c `uc  1 a 1 39 ]
+[s S179 . 16 `us 1 index 2 0 `*.39uc 1 fn 2 2 `ul 1 sclust 4 4 `ul 1 clust 4 8 `ul 1 sect 4 12 ]
+"635
+[v get_fileinfo@dj dj `*.39S179  1 p 2 5 ]
+"636
+[v get_fileinfo@dir dir `*.39uc  1 p 2 7 ]
+[s S185 . 22 `ul 1 fsize 4 0 `us 1 fdate 2 4 `us 1 ftime 2 6 `uc 1 fattrib 1 8 `[13]uc 1 fname 13 9 ]
+"637
+[v get_fileinfo@fno fno `*.39S185  1 p 2 9 ]
+"666
+} 0
+"540
+[v _dir_read dir_read `(E2600  1 s 1 dir_read ]
+{
+"545
+[v dir_read@res res `E2600  1 a 1 91 ]
+"546
+[v dir_read@c c `uc  1 a 1 90 ]
+[v dir_read@a a `uc  1 a 1 89 ]
+[s S179 . 16 `us 1 index 2 0 `*.39uc 1 fn 2 2 `ul 1 sclust 4 4 `ul 1 clust 4 8 `ul 1 sect 4 12 ]
+"541
+[v dir_read@dj dj `*.39S179  1 p 2 81 ]
+"542
+[v dir_read@dir dir `*.39uc  1 p 2 83 ]
+"566
+} 0
+"863
+[v _pf_read pf_read `(E3114  1 e 1 0 ]
+{
+"870
+[v pf_read@clst clst `ul  1 a 4 91 ]
+"871
+[v pf_read@remain remain `ul  1 a 4 87 ]
+[v pf_read@sect sect `ul  1 a 4 83 ]
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"874
+[v pf_read@fs fs `*.39S164  1 a 2 98 ]
+"872
+[v pf_read@rcnt rcnt `ui  1 a 2 96 ]
+"873
+[v pf_read@rbuff rbuff `*.39uc  1 a 2 79 ]
+[v pf_read@cs cs `uc  1 a 1 95 ]
+"869
+[v pf_read@dr dr `E2630  1 a 1 78 ]
+"864
+[v pf_read@buff buff `*.39v  1 p 2 64 ]
+"865
+[v pf_read@btr btr `ui  1 p 2 66 ]
+"866
+[v pf_read@br br `*.39ui  1 p 2 68 ]
+"914
+} 0
+"1051
+[v _pf_opendir pf_opendir `(E3114  1 e 1 0 ]
+{
+"1057
+[v pf_opendir@dir dir `[32]uc  1 a 32 0 ]
+[v pf_opendir@sp sp `[12]uc  1 a 12 32 ]
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"1058
+[v pf_opendir@fs fs `*.39S164  1 a 2 44 ]
+"1056
+[v pf_opendir@res res `E2600  1 a 1 46 ]
+[s S179 . 16 `us 1 index 2 0 `*.39uc 1 fn 2 2 `ul 1 sclust 4 4 `ul 1 clust 4 8 `ul 1 sect 4 12 ]
+"1052
+[v pf_opendir@dj dj `*.39S179  1 p 2 97 ]
+"1053
+[v pf_opendir@path path `*.39Cuc  1 p 2 99 ]
+"1079
+} 0
+"826
+[v _pf_open pf_open `(E3114  1 e 1 0 ]
+{
+"832
+[v pf_open@dir dir `[32]uc  1 a 32 34 ]
+[s S179 . 16 `us 1 index 2 0 `*.39uc 1 fn 2 2 `ul 1 sclust 4 4 `ul 1 clust 4 8 `ul 1 sect 4 12 ]
+"831
+[v pf_open@dj dj `S179  1 a 16 69 ]
+"832
+[v pf_open@sp sp `[12]uc  1 a 12 22 ]
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"833
+[v pf_open@fs fs `*.39S164  1 a 2 67 ]
+"830
+[v pf_open@res res `E2600  1 a 1 66 ]
+"827
+[v pf_open@path path `*.39Cuc  1 p 2 97 ]
+"853
+} 0
+"676
+[v _follow_path follow_path `(E2600  1 s 1 follow_path ]
+{
+"682
+[v follow_path@res res `E2600  1 a 1 96 ]
+[s S179 . 16 `us 1 index 2 0 `*.39uc 1 fn 2 2 `ul 1 sclust 4 4 `ul 1 clust 4 8 `ul 1 sect 4 12 ]
+"677
+[v follow_path@dj dj `*.39S179  1 p 2 89 ]
+"678
+[v follow_path@dir dir `*.39uc  1 p 2 91 ]
+"679
+[v follow_path@path path `*.39Cuc  1 p 2 93 ]
+"708
+} 0
+"410
+[v _get_clust get_clust `(ul  1 s 4 get_clust ]
+{
+"415
+[v get_clust@clst clst `ul  1 a 4 17 ]
+"411
+[v get_clust@dir dir `*.39uc  1 p 2 5 ]
+"425
+} 0
+"506
+[v _dir_find dir_find `(E2600  1 s 1 dir_find ]
+{
+"511
+[v dir_find@res res `E2600  1 a 1 88 ]
+"512
+[v dir_find@c c `uc  1 a 1 87 ]
+[s S179 . 16 `us 1 index 2 0 `*.39uc 1 fn 2 2 `ul 1 sclust 4 4 `ul 1 clust 4 8 `ul 1 sect 4 12 ]
+"507
+[v dir_find@dj dj `*.39S179  1 p 2 81 ]
+"508
+[v dir_find@dir dir `*.39uc  1 p 2 83 ]
+"530
+} 0
+"332
+[v _mem_cmp mem_cmp `(i  1 s 2 mem_cmp ]
+{
+"334
+[v mem_cmp@r r `i  1 a 2 17 ]
+"333
+[v mem_cmp@s s `*.39Cuc  1 a 2 15 ]
+[v mem_cmp@d d `*.39Cuc  1 a 2 13 ]
+"332
+[v mem_cmp@dst dst `*.39Cv  1 p 2 5 ]
+[v mem_cmp@src src `*.39Cv  1 p 2 7 ]
+[v mem_cmp@cnt cnt `i  1 p 2 9 ]
+"337
+} 0
+"433
+[v _dir_rewind dir_rewind `(E2600  1 s 1 dir_rewind ]
+{
+"437
+[v dir_rewind@clst clst `ul  1 a 4 40 ]
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"438
+[v dir_rewind@fs fs `*.39S164  1 a 2 38 ]
+[s S179 . 16 `us 1 index 2 0 `*.39uc 1 fn 2 2 `ul 1 sclust 4 4 `ul 1 clust 4 8 `ul 1 sect 4 12 ]
+"434
+[v dir_rewind@dj dj `*.39S179  1 p 2 28 ]
+"451
+} 0
+"461
+[v _dir_next dir_next `(E2600  1 s 1 dir_next ]
+{
+"465
+[v dir_next@clst clst `ul  1 a 4 75 ]
+"466
+[v dir_next@i i `us  1 a 2 79 ]
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"467
+[v dir_next@fs fs `*.39S164  1 a 2 73 ]
+[s S179 . 16 `us 1 index 2 0 `*.39uc 1 fn 2 2 `ul 1 sclust 4 4 `ul 1 clust 4 8 `ul 1 sect 4 12 ]
+"462
+[v dir_next@dj dj `*.39S179  1 p 2 64 ]
+"496
+} 0
+"577
+[v _create_name create_name `(E2600  1 s 1 create_name ]
+{
+"582
+[v create_name@sfn sfn `*.39uc  1 a 2 25 ]
+"583
+[v create_name@p p `*.39Cuc  1 a 2 21 ]
+"582
+[v create_name@c c `uc  1 a 1 28 ]
+[v create_name@i i `uc  1 a 1 27 ]
+[v create_name@si si `uc  1 a 1 24 ]
+[v create_name@ni ni `uc  1 a 1 23 ]
+[s S179 . 16 `us 1 index 2 0 `*.39uc 1 fn 2 2 `ul 1 sclust 4 4 `ul 1 clust 4 8 `ul 1 sect 4 12 ]
+"578
+[v create_name@dj dj `*.39S179  1 p 2 13 ]
+"579
+[v create_name@path path `*.39*.39Cuc  1 p 2 15 ]
+"586
+[v create_name@cvt cvt `C[128]uc  1 s 128 cvt ]
+"624
+} 0
+"325
+[v _mem_set mem_set `(v  1 s 1 mem_set ]
+{
+"326
+[v mem_set@d d `*.39uc  1 a 2 11 ]
+"325
+[v mem_set@dst dst `*.39v  1 p 2 5 ]
+[v mem_set@val val `i  1 p 2 7 ]
+[v mem_set@cnt cnt `i  1 p 2 9 ]
+"328
+} 0
+"750
+[v _pf_mount pf_mount `(E3114  1 e 1 0 ]
+{
+"754
+[v pf_mount@buf buf `[36]uc  1 a 36 66 ]
+"755
+[v pf_mount@fsize fsize `ul  1 a 4 114 ]
+[v pf_mount@bsect bsect `ul  1 a 4 110 ]
+[v pf_mount@mclst mclst `ul  1 a 4 106 ]
+[v pf_mount@tsect tsect `ul  1 a 4 102 ]
+"754
+[v pf_mount@fmt fmt `uc  1 a 1 118 ]
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"751
+[v pf_mount@fs fs `*.39S164  1 p 2 42 ]
+"817
+} 0
+"172 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\pic_mmcp.c
+[v _disk_initialize disk_initialize `(uc  1 e 1 0 ]
+{
+"174
+[v disk_initialize@ocr ocr `[4]uc  1 a 4 21 ]
+"175
+[v disk_initialize@tmr tmr `ui  1 a 2 29 ]
+"174
+[v disk_initialize@n n `uc  1 a 1 31 ]
+[v disk_initialize@ty ty `uc  1 a 1 28 ]
+[v disk_initialize@cmd cmd `uc  1 a 1 27 ]
+"218
+} 0
+"22
+[v _init_spi init_spi `(v  1 e 1 0 ]
+{
+"38
+} 0
+"40
+[v _dly_100us dly_100us `(v  1 e 1 0 ]
+{
+"43
+} 0
+"718 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\pff.c
+[v _check_fs check_fs `(uc  1 s 1 check_fs ]
+{
+"719
+[v check_fs@buf buf `*.39uc  1 p 2 32 ]
+"720
+[v check_fs@sect sect `ul  1 p 4 34 ]
+"733
+} 0
+"1000
+[v _pf_lseek pf_lseek `(E3114  1 e 1 0 ]
+{
+"1004
+[v pf_lseek@clst clst `ul  1 a 4 97 ]
+"1005
+[v pf_lseek@bcs bcs `ul  1 a 4 93 ]
+[v pf_lseek@ifptr ifptr `ul  1 a 4 89 ]
+[v pf_lseek@sect sect `ul  1 a 4 85 ]
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"1006
+[v pf_lseek@fs fs `*.39S164  1 a 2 101 ]
+"1001
+[v pf_lseek@ofs ofs `ul  1 p 4 64 ]
+"1041
+} 0
+"346
+[v _get_fat get_fat `(ul  1 s 4 get_fat ]
+{
+"350
+[v get_fat@buf buf `[4]uc  1 a 4 58 ]
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"351
+[v get_fat@fs fs `*.39S164  1 a 2 62 ]
+"347
+[v get_fat@clst clst `ul  1 p 4 32 ]
+"386
+} 0
+"224 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\pic_mmcp.c
+[v _disk_readp disk_readp `(E3069  1 e 1 0 ]
+{
+"233
+[v disk_readp@bc bc `ui  1 a 2 30 ]
+"232
+[v disk_readp@rc rc `uc  1 a 1 29 ]
+"231
+[v disk_readp@res res `E74  1 a 1 28 ]
+"225
+[v disk_readp@buff buff `*.39uc  1 p 2 16 ]
+"226
+[v disk_readp@sector sector `ul  1 p 4 18 ]
+"227
+[v disk_readp@offset offset `ui  1 p 2 22 ]
+"228
+[v disk_readp@count count `ui  1 p 2 24 ]
+"276
+} 0
+"122
+[v _send_cmd send_cmd `(uc  1 e 1 0 ]
+{
+"123
+[v send_cmd@cmd cmd `uc  1 a 1 wreg ]
+"127
+[v send_cmd@res res `uc  1 a 1 19 ]
+[v send_cmd@n n `uc  1 a 1 17 ]
+"123
+[v send_cmd@cmd cmd `uc  1 a 1 wreg ]
+"124
+[v send_cmd@arg arg `ul  1 p 4 13 ]
+"129
+[v send_cmd@cmd cmd `uc  1 a 1 18 ]
+"160
+} 0
+"89
+[v _send_cmd2 send_cmd2 `(uc  1 e 1 0 ]
+{
+"90
+[v send_cmd2@cmd cmd `uc  1 a 1 wreg ]
+"94
+[v send_cmd2@n n `uc  1 a 1 12 ]
+[v send_cmd2@res res `uc  1 a 1 10 ]
+"90
+[v send_cmd2@cmd cmd `uc  1 a 1 wreg ]
+"91
+[v send_cmd2@arg arg `ul  1 p 4 6 ]
+"97
+[v send_cmd2@cmd cmd `uc  1 a 1 11 ]
+"120
+} 0
+"45
+[v _xmit_spi xmit_spi `(v  1 e 1 0 ]
+{
+[v xmit_spi@d d `uc  1 a 1 wreg ]
+[v xmit_spi@d d `uc  1 a 1 wreg ]
+"47
+[v xmit_spi@d d `uc  1 a 1 5 ]
+"51
+} 0
+"53
+[v _rcv_spi rcv_spi `(uc  1 e 1 0 ]
+{
+"59
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 115 ]
+"5
+[v printf@fmt fmt `*.25Cuc  1 p 2 6 ]
+"13
+} 0
+"1390 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 113 ]
+[s S1674 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.2S1674  1 p 2 0 ]
+[v vfprintf@fmt fmt `*.25Cuc  1 p 2 2 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 4 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"697
+[v vfpfcnvrt@llu llu `uo  1 a 8 105 ]
+"696
+[v vfpfcnvrt@ll ll `o  1 a 8 96 ]
+"694
+[v vfpfcnvrt@cp cp `*.35uc  1 a 2 92 ]
+[v vfpfcnvrt@c c `uc  1 a 1 104 ]
+[s S1674 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.2S1674  1 p 2 72 ]
+[v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 74 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 76 ]
+"1387
+} 0
+"645
+[v _xtoa xtoa `(i  1 s 2 xtoa ]
+{
+"648
+[v xtoa@n n `uo  1 a 8 60 ]
+"647
+[v xtoa@c c `i  1 a 2 70 ]
+[v xtoa@i i `i  1 a 2 68 ]
+[v xtoa@w w `i  1 a 2 58 ]
+[v xtoa@p p `i  1 a 2 56 ]
+[s S1674 _IO_FILE 0 ]
+"645
+[v xtoa@fp fp `*.2S1674  1 p 2 33 ]
+[v xtoa@d d `uo  1 p 8 35 ]
+[v xtoa@x x `uc  1 p 1 43 ]
+"687
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\toupper.c
+[v _toupper toupper `(i  1 e 2 0 ]
+{
+[v toupper@c c `i  1 p 2 11 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\islower.c
+[v _islower islower `(i  1 e 2 0 ]
+{
+[v islower@c c `i  1 p 2 5 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+{
+[v isupper@c c `i  1 p 2 5 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isalpha.c
+[v _isalpha isalpha `(i  1 e 2 0 ]
+{
+[v isalpha@c c `i  1 p 2 5 ]
+"8
+} 0
+"615 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _utoa utoa `(i  1 s 2 utoa ]
+{
+"618
+[v utoa@n n `uo  1 a 8 55 ]
+"617
+[v utoa@i i `i  1 a 2 63 ]
+[v utoa@w w `i  1 a 2 53 ]
+[v utoa@p p `i  1 a 2 51 ]
+[s S1674 _IO_FILE 0 ]
+"615
+[v utoa@fp fp `*.2S1674  1 p 2 33 ]
+[v utoa@d d `uo  1 p 8 35 ]
+"641
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+{
+"12
+[v ___lomod@counter counter `uc  1 a 1 21 ]
+"9
+[v ___lomod@dividend dividend `uo  1 p 8 5 ]
+[v ___lomod@divisor divisor `uo  1 p 8 13 ]
+"27
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+{
+"12
+[v ___lodiv@quotient quotient `uo  1 a 8 21 ]
+"13
+[v ___lodiv@counter counter `uc  1 a 1 29 ]
+"9
+[v ___lodiv@dividend dividend `uo  1 p 8 5 ]
+[v ___lodiv@divisor divisor `uo  1 p 8 13 ]
+"32
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+{
+"5
+[v strncmp@r r `*.25Cuc  1 a 2 14 ]
+[v strncmp@l l `*.25Cuc  1 a 2 12 ]
+"3
+[v strncmp@_l _l `*.25Cuc  1 p 2 5 ]
+[v strncmp@_r _r `*.25Cuc  1 p 2 7 ]
+[v strncmp@n n `ui  1 p 2 9 ]
+"9
+} 0
+"568 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _stoa stoa `(i  1 s 2 stoa ]
+{
+"570
+[v stoa@nuls nuls `[7]uc  1 a 7 20 ]
+"571
+[v stoa@l l `i  1 a 2 35 ]
+[v stoa@p p `i  1 a 2 33 ]
+"570
+[v stoa@cp cp `*.35uc  1 a 2 31 ]
+"571
+[v stoa@w w `i  1 a 2 29 ]
+[v stoa@i i `i  1 a 2 27 ]
+[s S1674 _IO_FILE 0 ]
+"568
+[v stoa@fp fp `*.2S1674  1 p 2 15 ]
+[v stoa@s s `*.35uc  1 p 2 17 ]
+"570
+[v stoa@F1141 F1141 `[7]uc  1 s 7 F1141 ]
+"611
+} 0
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+"290
+[v dtoa@n n `o  1 a 8 59 ]
+"289
+[v dtoa@i i `i  1 a 2 67 ]
+[v dtoa@s s `i  1 a 2 57 ]
+[v dtoa@w w `i  1 a 2 55 ]
+[v dtoa@p p `i  1 a 2 53 ]
+[s S1674 _IO_FILE 0 ]
+"287
+[v dtoa@fp fp `*.2S1674  1 p 2 33 ]
+[v dtoa@d d `o  1 p 8 35 ]
+"328
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 31 ]
+[v pad@i i `i  1 a 2 29 ]
+[s S1674 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.2S1674  1 p 2 22 ]
+[v pad@buf buf `*.39uc  1 p 2 24 ]
+[v pad@p p `i  1 p 2 26 ]
+"95
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.35Cuc  1 a 2 7 ]
+"5
+[v strlen@s s `*.35Cuc  1 p 2 5 ]
+"12
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 20 ]
+"10
+[v fputs@c c `uc  1 a 1 19 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 15 ]
+[s S1658 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.2S1658  1 p 2 17 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 6 ]
+[s S1658 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.2S1658  1 p 2 8 ]
+"24
+} 0
+"140 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\uart.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@byte byte `uc  1 a 1 wreg ]
+[v putch@byte byte `uc  1 a 1 wreg ]
+[v putch@byte byte `uc  1 a 1 5 ]
+"145
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 23 ]
+"4
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 22 ]
+[v ___aomod@counter counter `uc  1 a 1 21 ]
+"9
+[v ___aomod@dividend dividend `o  1 p 8 5 ]
+[v ___aomod@divisor divisor `o  1 p 8 13 ]
+"36
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 23 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 22 ]
+[v ___aodiv@counter counter `uc  1 a 1 21 ]
+"9
+[v ___aodiv@dividend dividend `o  1 p 8 5 ]
+[v ___aodiv@divisor divisor `o  1 p 8 13 ]
+"43
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+"6
+[v atoi@n n `i  1 a 2 25 ]
+[v atoi@neg neg `i  1 a 2 18 ]
+"4
+[v atoi@s s `*.25Cuc  1 p 2 12 ]
+"16
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+{
+[v isspace@c c `i  1 p 2 5 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+{
+[v isdigit@c c `i  1 p 2 5 ]
+"8
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 9 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 5 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 7 ]
+"53
+} 0
+"396 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\pff.c
+[v _clust2sect clust2sect `(ul  1 s 4 clust2sect ]
+{
+[s S164 . 42 `uc 1 fs_type 1 0 `uc 1 flag 1 1 `uc 1 csize 1 2 `uc 1 pad1 1 3 `us 1 n_rootdir 2 4 `ul 1 n_fatent 4 6 `ul 1 fatbase 4 10 `ul 1 dirbase 4 14 `ul 1 database 4 18 `ul 1 fptr 4 22 `ul 1 fsize 4 26 `ul 1 org_clust 4 30 `ul 1 curr_clust 4 34 `ul 1 dsect 4 38 ]
+"400
+[v clust2sect@fs fs `*.39S164  1 a 2 26 ]
+"397
+[v clust2sect@clst clst `ul  1 p 4 17 ]
+"406
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 13 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 5 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 9 ]
+"129
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 13 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 17 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 5 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 9 ]
+"30
+} 0
+"45 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\main.c
+[v _gpio_init gpio_init `(v  1 e 1 0 ]
+{
+"64
+} 0
+"68 C:\Users\USER\Downloads\fat32_new\spi_petit_fatfs_sdcard.X\uart.c
+[v _isr_high isr_high `IIH(v  1 e 1 0 ]
+{
+"77
+[v isr_high@i i `i  1 a 2 3 ]
+"76
+[v isr_high@d d `uc  1 a 1 2 ]
+"94
+} 0
