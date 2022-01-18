@@ -1,0 +1,1015 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+[v i2_abs abs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+[v i2___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+[v i2___aomod __aomod `(o  1 e 8 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+[v i2_atoi atoi `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"72 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+[v i2_pad pad `(i  1 s 2 i2_pad ]
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+[v i2_dtoa dtoa `(i  1 s 2 i2_dtoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+[v i2_vfpfcnvrt vfpfcnvrt `(i  1 s 2 i2_vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+[v i2_vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+[v i2_isdigit isdigit `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+[v i2_isspace isspace `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+[v i2_fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+[v i2_fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+[v i2_sprintf sprintf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+[v i2_strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"6 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/i2c.c
+[v _init_i2c init_i2c `(v  1 e 1 0 ]
+"10
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+"37
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+[v i2_I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+"41
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+[v i2_I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+"46
+[v _I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+"51
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+[v i2_I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+"56
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+[v i2_I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+"61
+[v _I2C_Master_Read I2C_Master_Read `(uc  1 e 1 0 ]
+"7 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/lcd1602.c
+[v _lcd1602_initial lcd1602_initial `(v  1 e 1 0 ]
+"34
+[v _lcd1602_clear lcd1602_clear `(v  1 e 1 0 ]
+"38
+[v _lcd1602_home lcd1602_home `(v  1 e 1 0 ]
+[v i2_lcd1602_home lcd1602_home `(v  1 e 1 0 ]
+"47
+[v _lcd1602_display lcd1602_display `(v  1 e 1 0 ]
+"52
+[v _lcd1602_setCursor lcd1602_setCursor `(v  1 e 1 0 ]
+[v i2_lcd1602_setCursor lcd1602_setCursor `(v  1 e 1 0 ]
+"60
+[v _lcd1602_cursorNextLine lcd1602_cursorNextLine `(v  1 e 1 0 ]
+[v i2_lcd1602_cursorNextLine lcd1602_cursorNextLine `(v  1 e 1 0 ]
+"74
+[v _lcd1602_noBlink lcd1602_noBlink `(v  1 e 1 0 ]
+"79
+[v _lcd1602_blink lcd1602_blink `(v  1 e 1 0 ]
+"112
+[v _lcd1602_print lcd1602_print `(v  1 e 1 0 ]
+[v i2_lcd1602_print lcd1602_print `(v  1 e 1 0 ]
+"118
+[v _lcd1602_cmd lcd1602_cmd `(v  1 e 1 0 ]
+[v i2_lcd1602_cmd lcd1602_cmd `(v  1 e 1 0 ]
+"129
+[v _lcd1602_displaychar lcd1602_displaychar `(v  1 e 1 0 ]
+[v i2_lcd1602_displaychar lcd1602_displaychar `(v  1 e 1 0 ]
+"26 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/main.c
+[v _printDate printDate `(v  1 e 1 0 ]
+"35
+[v _printTime printTime `(v  1 e 1 0 ]
+"44
+[v _myISR myISR `(v  1 e 1 0 ]
+"133
+[v _Hi_ISR Hi_ISR `IIH(v  1 e 1 0 ]
+"141
+[v _main main `(v  1 e 1 0 ]
+"31 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/myprintf.c
+[v _putch putch `(v  1 e 1 0 ]
+[v i2_putch putch `(v  1 e 1 0 ]
+"10 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/pcf8563.c
+[v _setI2C setI2C `(v  1 e 1 0 ]
+[v i2_setI2C setI2C `(v  1 e 1 0 ]
+"20
+[v _getI2C getI2C `(uc  1 e 1 0 ]
+"38
+[v _PCF8563_setDate PCF8563_setDate `(v  1 e 1 0 ]
+"48
+[v _PCF8563_getDate PCF8563_getDate `(v  1 e 1 0 ]
+"75
+[v _PCF8563_setTime PCF8563_setTime `(v  1 e 1 0 ]
+"81
+[v _PCF8563_getTime PCF8563_getTime `(v  1 e 1 0 ]
+"91
+[v _init_pcf8563 init_pcf8563 `(v  1 e 1 0 ]
+"53 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+[s S191 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"316
+[s S200 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S209 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S218 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S220 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S223 . 1 `S191 1 . 1 0 `S200 1 . 1 0 `S209 1 . 1 0 `S218 1 . 1 0 `S220 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES223  1 e 1 @3969 ]
+"978
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"1090
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1314
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1478
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1700
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2144
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"3111
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"3321
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"3577
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3601
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4691
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4916
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+"5011
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"5081
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"5302
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"5309
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+[s S311 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"6109
+[s S317 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 FLTS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S325 . 1 `S311 1 . 1 0 `S317 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES325  1 e 1 @4051 ]
+[s S262 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6725
+[s S271 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S280 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S284 . 1 `S262 1 . 1 0 `S271 1 . 1 0 `S280 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES284  1 e 1 @4082 ]
+"7019
+[v _ACKDT ACKDT `VEb  1 e 0 @32301 ]
+"7022
+[v _ACKEN ACKEN `VEb  1 e 0 @32300 ]
+"7994
+[v _PEN PEN `VEb  1 e 0 @32298 ]
+"8168
+[v _RCEN RCEN `VEb  1 e 0 @32299 ]
+"8237
+[v _RSEN RSEN `VEb  1 e 0 @32297 ]
+"8294
+[v _SEN SEN `VEb  1 e 0 @32296 ]
+"8621
+[v _TRISC3 TRISC3 `VEb  1 e 0 @31907 ]
+"8624
+[v _TRISC4 TRISC4 `VEb  1 e 0 @31908 ]
+"8732
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"72 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/lcd1602.h
+[v __displayfunction _displayfunction `uc  1 e 1 0 ]
+"73
+[v __displaycontrol _displaycontrol `uc  1 e 1 0 ]
+"74
+[v __displaymode _displaymode `uc  1 e 1 0 ]
+"75
+[v __cols _cols `uc  1 e 1 0 ]
+"76
+[v __rows _rows `uc  1 e 1 0 ]
+"17 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/main.c
+[v _temp temp `[16]uc  1 e 16 0 ]
+"18
+[v _year year `ui  1 e 2 0 ]
+"19
+[v _month month `ui  1 e 2 0 ]
+"20
+[v _day day `ui  1 e 2 0 ]
+"21
+[v _hour hour `ui  1 e 2 0 ]
+"22
+[v _minute minute `ui  1 e 2 0 ]
+"23
+[v _second second `ui  1 e 2 0 ]
+"24
+[v _month_day month_day `C[13]i  1 e 26 0 ]
+"141
+[v _main main `(v  1 e 1 0 ]
+{
+"171
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S862 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+"13
+[v sprintf@f f `S862  1 a 6 12 ]
+"12
+[v sprintf@ap ap `[1]*.39v  1 a 2 10 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 0 ]
+[v sprintf@fmt fmt `*.25Cuc  1 p 2 2 ]
+"23
+} 0
+"1390 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 102 ]
+[s S888 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.39S888  1 p 2 96 ]
+[v vfprintf@fmt fmt `*.25Cuc  1 p 2 98 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 100 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"696
+[v vfpfcnvrt@ll ll `o  1 a 8 84 ]
+"695
+[v vfpfcnvrt@done done `i  1 a 2 92 ]
+[s S888 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.39S888  1 p 2 74 ]
+[v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 76 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 78 ]
+"1387
+} 0
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+"290
+[v dtoa@n n `o  1 a 8 64 ]
+"289
+[v dtoa@i i `i  1 a 2 72 ]
+[v dtoa@s s `i  1 a 2 62 ]
+[v dtoa@w w `i  1 a 2 60 ]
+[v dtoa@p p `i  1 a 2 58 ]
+[s S888 _IO_FILE 0 ]
+"287
+[v dtoa@fp fp `*.39S888  1 p 2 38 ]
+[v dtoa@d d `o  1 p 8 40 ]
+"328
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 36 ]
+[v pad@i i `i  1 a 2 34 ]
+[s S888 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.39S888  1 p 2 27 ]
+[v pad@buf buf `*.39uc  1 p 2 29 ]
+[v pad@p p `i  1 p 2 31 ]
+"95
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 12 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 10 ]
+"12
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 25 ]
+"10
+[v fputs@c c `uc  1 a 1 24 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 20 ]
+[s S862 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.39S862  1 p 2 22 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 11 ]
+[s S862 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.39S862  1 p 2 13 ]
+"24
+} 0
+"31 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/myprintf.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@byte byte `uc  1 a 1 wreg ]
+[v putch@byte byte `uc  1 a 1 wreg ]
+[v putch@byte byte `uc  1 a 1 10 ]
+"35
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 28 ]
+"4
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 27 ]
+[v ___aomod@counter counter `uc  1 a 1 26 ]
+"9
+[v ___aomod@dividend dividend `o  1 p 8 10 ]
+[v ___aomod@divisor divisor `o  1 p 8 18 ]
+"36
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 28 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 27 ]
+[v ___aodiv@counter counter `uc  1 a 1 26 ]
+"9
+[v ___aodiv@dividend dividend `o  1 p 8 10 ]
+[v ___aodiv@divisor divisor `o  1 p 8 18 ]
+"43
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+"6
+[v atoi@n n `i  1 a 2 30 ]
+[v atoi@neg neg `i  1 a 2 23 ]
+"4
+[v atoi@s s `*.25Cuc  1 p 2 17 ]
+"16
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+{
+[v isspace@c c `i  1 p 2 10 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+{
+[v isdigit@c c `i  1 p 2 10 ]
+"8
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 14 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 10 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 12 ]
+"53
+} 0
+"112 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/lcd1602.c
+[v _lcd1602_print lcd1602_print `(v  1 e 1 0 ]
+{
+"113
+[v lcd1602_print@i i `i  1 a 2 16 ]
+"112
+[v lcd1602_print@str str `*.39uc  1 p 2 11 ]
+[v lcd1602_print@length length `i  1 p 2 13 ]
+"116
+} 0
+"129
+[v _lcd1602_displaychar lcd1602_displaychar `(v  1 e 1 0 ]
+{
+[v lcd1602_displaychar@value value `uc  1 a 1 wreg ]
+[v lcd1602_displaychar@value value `uc  1 a 1 wreg ]
+[v lcd1602_displaychar@value value `uc  1 a 1 10 ]
+"138
+} 0
+"7
+[v _lcd1602_initial lcd1602_initial `(v  1 e 1 0 ]
+{
+"31
+} 0
+"38
+[v _lcd1602_home lcd1602_home `(v  1 e 1 0 ]
+{
+"40
+} 0
+"47
+[v _lcd1602_display lcd1602_display `(v  1 e 1 0 ]
+{
+"50
+} 0
+"34
+[v _lcd1602_clear lcd1602_clear `(v  1 e 1 0 ]
+{
+"36
+} 0
+"60
+[v _lcd1602_cursorNextLine lcd1602_cursorNextLine `(v  1 e 1 0 ]
+{
+"62
+} 0
+"52
+[v _lcd1602_setCursor lcd1602_setCursor `(v  1 e 1 0 ]
+{
+[v lcd1602_setCursor@row row `uc  1 a 1 wreg ]
+"53
+[v lcd1602_setCursor@row_offsets row_offsets `[4]i  1 a 8 12 ]
+"52
+[v lcd1602_setCursor@row row `uc  1 a 1 wreg ]
+[v lcd1602_setCursor@col col `uc  1 p 1 11 ]
+[v lcd1602_setCursor@F2597 F2597 `[4]i  1 s 8 F2597 ]
+[v lcd1602_setCursor@row row `uc  1 a 1 20 ]
+"58
+} 0
+"118
+[v _lcd1602_cmd lcd1602_cmd `(v  1 e 1 0 ]
+{
+[v lcd1602_cmd@cmd cmd `uc  1 a 1 wreg ]
+[v lcd1602_cmd@cmd cmd `uc  1 a 1 wreg ]
+[v lcd1602_cmd@cmd cmd `uc  1 a 1 10 ]
+"127
+} 0
+"91 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/pcf8563.c
+[v _init_pcf8563 init_pcf8563 `(v  1 e 1 0 ]
+{
+"96
+} 0
+"10
+[v _setI2C setI2C `(v  1 e 1 0 ]
+{
+[v setI2C@reg reg `uc  1 a 1 wreg ]
+[v setI2C@reg reg `uc  1 a 1 wreg ]
+[v setI2C@data data `uc  1 p 1 12 ]
+[v setI2C@reg reg `uc  1 a 1 13 ]
+"18
+} 0
+"6 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/i2c.c
+[v _init_i2c init_i2c `(v  1 e 1 0 ]
+{
+[v init_i2c@freq freq `ul  1 p 4 35 ]
+[v init_i2c@clock clock `ul  1 p 4 39 ]
+"8
+} 0
+"10
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+{
+[v I2C_Master_Init@freq freq `Cul  1 p 4 23 ]
+[v I2C_Master_Init@clock clock `Cul  1 p 4 27 ]
+"35
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 18 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 22 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 10 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 14 ]
+"30
+} 0
+"81 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/pcf8563.c
+[v _PCF8563_getTime PCF8563_getTime `(v  1 e 1 0 ]
+{
+[v PCF8563_getTime@hour hour `*.39ui  1 p 2 15 ]
+[v PCF8563_getTime@min min `*.39ui  1 p 2 17 ]
+[v PCF8563_getTime@sec sec `*.39ui  1 p 2 19 ]
+"89
+} 0
+"48
+[v _PCF8563_getDate PCF8563_getDate `(v  1 e 1 0 ]
+{
+"49
+[v PCF8563_getDate@buf buf `[3]uc  1 a 3 28 ]
+"50
+[v PCF8563_getDate@century century `uc  1 a 1 27 ]
+"48
+[v PCF8563_getDate@year year `*.39ui  1 p 2 15 ]
+[v PCF8563_getDate@mon mon `*.39ui  1 p 2 17 ]
+[v PCF8563_getDate@day day `*.39ui  1 p 2 19 ]
+"73
+} 0
+"20
+[v _getI2C getI2C `(uc  1 e 1 0 ]
+{
+[v getI2C@reg reg `uc  1 a 1 wreg ]
+"21
+[v getI2C@data data `uc  1 a 1 14 ]
+"20
+[v getI2C@reg reg `uc  1 a 1 wreg ]
+"23
+[v getI2C@reg reg `uc  1 a 1 13 ]
+"36
+} 0
+"56 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/i2c.c
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+{
+[v I2C_Master_Write@d d `uc  1 a 1 wreg ]
+[v I2C_Master_Write@d d `uc  1 a 1 wreg ]
+[v I2C_Master_Write@d d `uc  1 a 1 11 ]
+"59
+} 0
+"51
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"54
+} 0
+"41
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+{
+"44
+} 0
+"46
+[v _I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+{
+"49
+} 0
+"61
+[v _I2C_Master_Read I2C_Master_Read `(uc  1 e 1 0 ]
+{
+[v I2C_Master_Read@a a `uc  1 a 1 wreg ]
+"62
+[v I2C_Master_Read@temp temp `uc  1 a 1 12 ]
+"61
+[v I2C_Master_Read@a a `uc  1 a 1 wreg ]
+"64
+[v I2C_Master_Read@a a `uc  1 a 1 11 ]
+"75
+} 0
+"37
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"39
+} 0
+"133 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/main.c
+[v _Hi_ISR Hi_ISR `IIH(v  1 e 1 0 ]
+{
+"139
+} 0
+"44
+[v _myISR myISR `(v  1 e 1 0 ]
+{
+"131
+} 0
+"35
+[v _printTime printTime `(v  1 e 1 0 ]
+{
+"42
+} 0
+"60 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/lcd1602.c
+[v i2_lcd1602_cursorNextLine lcd1602_cursorNextLine `(v  1 e 1 0 ]
+{
+"62
+} 0
+"52
+[v i2_lcd1602_setCursor lcd1602_setCursor `(v  1 e 1 0 ]
+{
+[v i2lcd1602_setCursor@row row `uc  1 a 1 wreg ]
+"53
+[v i2lcd1602_setCursor@row_offsets row_offsets `[4]i  1 a 8 2 ]
+"52
+[v i2lcd1602_setCursor@row row `uc  1 a 1 wreg ]
+[v i2lcd1602_setCursor@col col `uc  1 p 1 1 ]
+[v i2lcd1602_setCursor@row row `uc  1 a 1 10 ]
+"58
+} 0
+"75 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/pcf8563.c
+[v _PCF8563_setTime PCF8563_setTime `(v  1 e 1 0 ]
+{
+[v PCF8563_setTime@hour hour `uc  1 a 1 wreg ]
+[v PCF8563_setTime@hour hour `uc  1 a 1 wreg ]
+[v PCF8563_setTime@min min `uc  1 p 1 10 ]
+[v PCF8563_setTime@sec sec `uc  1 p 1 11 ]
+[v PCF8563_setTime@hour hour `uc  1 a 1 14 ]
+"79
+} 0
+"26 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/main.c
+[v _printDate printDate `(v  1 e 1 0 ]
+{
+"33
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v i2_sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S862 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+"13
+[v i2sprintf@f f `S862  1 a 6 106 ]
+"12
+[v i2sprintf@ap ap `[1]*.39v  1 a 2 104 ]
+"9
+[v i2sprintf@s s `*.39uc  1 p 2 94 ]
+[v i2sprintf@fmt fmt `*.25Cuc  1 p 2 96 ]
+"23
+} 0
+"1390 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v i2_vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v i2vfprintf@cfmt cfmt `*.25uc  1 a 2 92 ]
+[s S888 _IO_FILE 0 ]
+"1390
+[v i2vfprintf@fp fp `*.39S888  1 p 2 86 ]
+[v i2vfprintf@fmt fmt `*.25Cuc  1 p 2 88 ]
+[v i2vfprintf@ap ap `*.39*.39v  1 p 2 90 ]
+"1404
+} 0
+"692
+[v i2_vfpfcnvrt vfpfcnvrt `(i  1 s 2 i2_vfpfcnvrt ]
+{
+"696
+[v i2vfpfcnvrt@ll ll `o  1 a 8 74 ]
+"695
+[v i2vfpfcnvrt@done done `i  1 a 2 82 ]
+[s S888 _IO_FILE 0 ]
+"692
+[v i2vfpfcnvrt@fp fp `*.39S888  1 p 2 64 ]
+[v i2vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 66 ]
+[v i2vfpfcnvrt@ap ap `*.39*.39v  1 p 2 68 ]
+"1387
+} 0
+"287
+[v i2_dtoa dtoa `(i  1 s 2 i2_dtoa ]
+{
+"290
+[v i2dtoa@n n `o  1 a 8 54 ]
+"289
+[v i2dtoa@i i `i  1 a 2 62 ]
+[v i2dtoa@s s `i  1 a 2 52 ]
+[v i2dtoa@w w `i  1 a 2 50 ]
+[v i2dtoa@p p `i  1 a 2 48 ]
+[s S888 _IO_FILE 0 ]
+"287
+[v i2dtoa@fp fp `*.39S888  1 p 2 28 ]
+[v i2dtoa@d d `o  1 p 8 30 ]
+"328
+} 0
+"72
+[v i2_pad pad `(i  1 s 2 i2_pad ]
+{
+"74
+[v i2pad@w w `i  1 a 2 26 ]
+[v i2pad@i i `i  1 a 2 24 ]
+[s S888 _IO_FILE 0 ]
+"72
+[v i2pad@fp fp `*.39S888  1 p 2 17 ]
+[v i2pad@buf buf `*.39uc  1 p 2 19 ]
+[v i2pad@p p `i  1 p 2 21 ]
+"95
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v i2_strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v i2strlen@a a `*.39Cuc  1 a 2 2 ]
+"5
+[v i2strlen@s s `*.39Cuc  1 p 2 0 ]
+"12
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v i2_fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v i2fputs@i i `i  1 a 2 15 ]
+"10
+[v i2fputs@c c `uc  1 a 1 14 ]
+"8
+[v i2fputs@s s `*.39Cuc  1 p 2 10 ]
+[s S862 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v i2fputs@fp fp `*.39S862  1 p 2 12 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v i2_fputc fputc `(i  1 e 2 0 ]
+{
+[v i2fputc@c c `i  1 p 2 1 ]
+[s S862 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v i2fputc@fp fp `*.39S862  1 p 2 3 ]
+"24
+} 0
+"31 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/myprintf.c
+[v i2_putch putch `(v  1 e 1 0 ]
+{
+[v i2putch@byte byte `uc  1 a 1 wreg ]
+[v i2putch@byte byte `uc  1 a 1 wreg ]
+[v i2putch@byte byte `uc  1 a 1 0 ]
+"35
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+[v i2_abs abs `(i  1 e 2 0 ]
+{
+[v i2abs@a a `i  1 p 2 18 ]
+"4
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+[v i2___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v i2___aomod@sign sign `uc  1 a 1 17 ]
+[v i2___aomod@counter counter `uc  1 a 1 16 ]
+"9
+[v i2___aomod@dividend dividend `o  1 p 8 0 ]
+[v i2___aomod@divisor divisor `o  1 p 8 8 ]
+"36
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+[v i2___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v i2___aodiv@quotient quotient `o  1 a 8 18 ]
+"13
+[v i2___aodiv@sign sign `uc  1 a 1 17 ]
+[v i2___aodiv@counter counter `uc  1 a 1 16 ]
+"9
+[v i2___aodiv@dividend dividend `o  1 p 8 0 ]
+[v i2___aodiv@divisor divisor `o  1 p 8 8 ]
+"43
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atoi.c
+[v i2_atoi atoi `(i  1 e 2 0 ]
+{
+"6
+[v i2atoi@n n `i  1 a 2 20 ]
+[v i2atoi@neg neg `i  1 a 2 13 ]
+"4
+[v i2atoi@s s `*.25Cuc  1 p 2 7 ]
+"16
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+[v i2_isspace isspace `(i  1 e 2 0 ]
+{
+[v i2isspace@c c `i  1 p 2 0 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+[v i2_isdigit isdigit `(i  1 e 2 0 ]
+{
+[v i2isdigit@c c `i  1 p 2 0 ]
+"8
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i2___wmul@product product `ui  1 a 2 4 ]
+"15
+[v i2___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v i2___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"112 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/lcd1602.c
+[v i2_lcd1602_print lcd1602_print `(v  1 e 1 0 ]
+{
+"113
+[v i2lcd1602_print@i i `i  1 a 2 6 ]
+"112
+[v i2lcd1602_print@str str `*.39uc  1 p 2 1 ]
+[v i2lcd1602_print@length length `i  1 p 2 3 ]
+"116
+} 0
+"129
+[v i2_lcd1602_displaychar lcd1602_displaychar `(v  1 e 1 0 ]
+{
+[v i2lcd1602_displaychar@value value `uc  1 a 1 wreg ]
+[v i2lcd1602_displaychar@value value `uc  1 a 1 wreg ]
+[v i2lcd1602_displaychar@value value `uc  1 a 1 0 ]
+"138
+} 0
+"38
+[v i2_lcd1602_home lcd1602_home `(v  1 e 1 0 ]
+{
+"40
+} 0
+"74
+[v _lcd1602_noBlink lcd1602_noBlink `(v  1 e 1 0 ]
+{
+"77
+} 0
+"38 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/pcf8563.c
+[v _PCF8563_setDate PCF8563_setDate `(v  1 e 1 0 ]
+{
+[v PCF8563_setDate@year year `us  1 p 2 12 ]
+[v PCF8563_setDate@mon mon `uc  1 p 1 14 ]
+[v PCF8563_setDate@day day `uc  1 p 1 15 ]
+"46
+} 0
+"10
+[v i2_setI2C setI2C `(v  1 e 1 0 ]
+{
+[v i2setI2C@reg reg `uc  1 a 1 wreg ]
+[v i2setI2C@reg reg `uc  1 a 1 wreg ]
+[v i2setI2C@data data `uc  1 p 1 8 ]
+[v i2setI2C@reg reg `uc  1 a 1 9 ]
+"18
+} 0
+"56 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/i2c.c
+[v i2_I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+{
+[v i2I2C_Master_Write@d d `uc  1 a 1 wreg ]
+[v i2I2C_Master_Write@d d `uc  1 a 1 wreg ]
+[v i2I2C_Master_Write@d d `uc  1 a 1 1 ]
+"59
+} 0
+"51
+[v i2_I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"54
+} 0
+"41
+[v i2_I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+{
+"44
+} 0
+"37
+[v i2_I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"39
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 9 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 11 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 5 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 7 ]
+"30
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"79 D:\NCKU_data\Course\110_1\Microcontroller\Final\rtc_proj.X\src/lcd1602.c
+[v _lcd1602_blink lcd1602_blink `(v  1 e 1 0 ]
+{
+"82
+} 0
+"118
+[v i2_lcd1602_cmd lcd1602_cmd `(v  1 e 1 0 ]
+{
+[v i2lcd1602_cmd@cmd cmd `uc  1 a 1 wreg ]
+[v i2lcd1602_cmd@cmd cmd `uc  1 a 1 wreg ]
+[v i2lcd1602_cmd@cmd cmd `uc  1 a 1 0 ]
+"127
+} 0
