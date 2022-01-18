@@ -987,8 +987,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _upmode `uc ~T0 @X0 1 a ]
 [e = _upmode -> -> 1 `i `uc ]
 "84
-[; ;main.c: 84:     pwm_Init(63);
-[e ( _pwm_Init (1 -> -> 63 `i `uc ]
+[; ;main.c: 84:     pwm_Init(62);
+[e ( _pwm_Init (1 -> -> 62 `i `uc ]
 "85
 [; ;main.c: 85:  gpio_init();
 [e ( _gpio_init ..  ]
@@ -1278,14 +1278,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 192:                         num_temp = Line[count];
 [e = _num_temp -> *U + &U _Line * -> -> _count `ui `ux -> -> # *U &U _Line `ui `ux `ui ]
 "193
-[; ;main.c: 193:                         pwm_setDuty(num_temp);
-[e ( _pwm_setDuty (1 _num_temp ]
+[; ;main.c: 193:                         pwm_setDuty((int)num_temp);
+[e ( _pwm_setDuty (1 -> -> _num_temp `i `ui ]
 "194
 [; ;main.c: 194:                         count++;
 [e ++ _count -> 1 `i ]
 "196
-[; ;main.c: 196:                         _delay((unsigned long)((63)*(40000000/4000000.0)));
-[e ( __delay (1 -> * -> -> 63 `i `d / -> -> 40000000 `l `d .4000000.0 `ul ]
+[; ;main.c: 196:                         _delay((unsigned long)((40)*(40000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 40 `i `d / -> -> 40000000 `l `d .4000000.0 `ul ]
 "197
 [; ;main.c: 197:                     }
 }

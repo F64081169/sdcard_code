@@ -22,6 +22,7 @@
 /*---------------------------------------------------------*/
 
 char Line[128] = {0,};		/* Console input buffer */
+int init_flag;
 
 void put_rc (FRESULT rc)
 {
@@ -44,8 +45,8 @@ void put_drc (BYTE res)
 void gpio_init (void)
 {
 	/* Initialize GPIO ports */
-    TRISB = 0x00; 
-    LATB = 0x00;       
+    //TRISB = 0x00; 
+    //LATB = 0x00;       
 
 	/* Attach UART module to I/O pads */
     TRISCbits.RC7 = 1; // rx
@@ -59,7 +60,7 @@ void gpio_init (void)
     TRISCbits.RC4 = 1; // sdi
     TRISCbits.RC3 = 0; // sck
 
-	LATBbits.LB0 = 0x01;		/* LED ON */
+	//LATBbits.LB0 = 0x01;		/* LED ON */
 }
 
 /*-----------------------------------------------------------------------*/
@@ -156,16 +157,17 @@ int main (void)
 
 			case 'o' :	/* fo <file> - Open a file */
                 printf("\tOpen a file\r\n\t");
-                
 				while (*ptr == ' ') 
                     ptr++;
-				put_rc(pf_open(ptr));
+				res = pf_open(ptr);
+                put_rc(res);
+                if(res == FR_OK)
+                    init_flag = 0;
 				break;
 #if _USE_READ
 			case 'd' :	/* fd - Read the file 128 bytes and dump it */
                 printf("\tRead all file and output square wave\r\n");
                 int count;
-                int init_flag = 0;
                 unsigned int num_temp;
                 pwm_setDuty(0);
                 pwm_start();
@@ -188,10 +190,15 @@ int main (void)
                     while(count < s1)
                     {
                         num_temp = Line[count];
-                        pwm_setDuty(num_temp);
+                        pwm_setDuty((int)num_temp);
                         count++;
                         //wait 62.5 us
-                        __delay_us(63);
+                        __delay_us(40);
+                    }
+                    if(INTCONbits.INT0IF)
+                    {
+                        INT0IF = 0;
+                        break;
                     }
 				}while(s1 != 0);
                 pwm_stop();   

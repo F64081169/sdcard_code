@@ -5097,7 +5097,7 @@ int main (void)
 
 
 
-    pwm_Init(63);
+    pwm_Init(62);
  gpio_init();
 
 
@@ -5194,10 +5194,10 @@ int main (void)
                     while(count < s1)
                     {
                         num_temp = Line[count];
-                        pwm_setDuty(num_temp);
+                        pwm_setDuty((int)num_temp);
                         count++;
 
-                        _delay((unsigned long)((63)*(40000000/4000000.0)));
+                        _delay((unsigned long)((40)*(40000000/4000000.0)));
                     }
                     if(INTCONbits.INT0IF)
                     {
